@@ -26,3 +26,8 @@ kelvin.oninput = function () {
     let c = (parseFloat(kelvin.value) - 273.15);
     celsius.value = parseFloat(c.toFixed(2));
 }
+let del=()=>{
+    celsius.value='';
+    fahrenheit.value='';
+    kelvin.value='';
+}

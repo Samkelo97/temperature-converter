@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>temperature converter</title>
 </head>
 <body>
-   
-
-    <h1>
-    Temperature Converter</h1>
-            <label>Fahrenheit</label>
-            <input type="number" id="fahrenheit">
-        
-            <label>Celsius</label>
+    <div class="align">
+        <h2>Temperature converter</h2>
+    </div>
+    <div class="Temperature">
+    <div>
+        <h6>fahrenheit</h6><span><button id="btn" onclick="del('')">clear</button></span>
+<br>
+    <br>        <input type="number" id="fahrenheit">
+    </div>
+        <div>
+            <h6>Celsius</h6>
             <input type="number" id="celsius">
-  
-        <div class="col">
-            <label>Kelvin</label>
+        </div>
+        <div>
+            <h6>Kelvin</h6>
             <input type="number" id="kelvin">
         </div>
-  
+    </div>
 <script src="./JS/code.js"></script>
 
 </body>
